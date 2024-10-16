@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
-
-export default App
+    <div className="App">
+      <img src="react.png"/>
+      <h1>React</h1>
+      <p>A biblioteca para interfaces de usuários web nativas.</p>
+      <button>Aprenda React</button> <button>Referência da API</button>
+      <hr />
+      <h2>Crie interfaces de usuários de componentes</h2>
+      <p>React permite que você construa interaces de usuário a partir de pedaços individuais chamados componentes.</p>
+      <hr/>
+      <h2>Ecreva componentes com código e marcação</h2>
+      <p>Componentes React são funções JavaScript. A sintaxe e marcação é chamada de JSX. É uma extensão da sintaxe JavaScript popularizada pelo React.</p>
+      <hr/>
+      <h2>Próximos passos:</h2>
+      
+      <ul>
+        <li>Uso de dados dinâmicos no JSX</li>
+        <li>Criação de novos componentes</li>
+        <li>Estilização de componentes</li>
+        <li>Uso de props e children</li>
+        <li>Uso de eventos o JavaScript</li>
+        
+      </ul>
+    </div>
+  )}
