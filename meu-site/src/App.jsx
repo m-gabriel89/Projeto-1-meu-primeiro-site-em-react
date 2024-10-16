@@ -9,11 +9,11 @@ export default function App() {
       <h2>Crie interfaces de usuários de componentes</h2>
       <p>React permite que você construa interaces de usuário a partir de pedaços individuais chamados componentes.</p>
       <hr/>
-      <h2>Ecreva componentes com código e marcação</h2>
+      <h2>Escreva componentes com código e marcação</h2>
       <p>Componentes React são funções JavaScript. A sintaxe e marcação é chamada de JSX. É uma extensão da sintaxe JavaScript popularizada pelo React.</p>
       <hr/>
       <h2>Próximos passos:</h2>
-      
+
       <ul>
         <li>Uso de dados dinâmicos no JSX</li>
         <li>Criação de novos componentes</li>
